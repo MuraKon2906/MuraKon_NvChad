@@ -2,6 +2,7 @@ return {
   "ellisonleao/carbon-now.nvim",
   lazy = true,
   cmd = "CarbonNow",
+  open_cmd = "wslview", -- for wsl only . if not used in wsl comment this line 
   opts = {
     base_url = "https://carbon.now.sh/",
     options = {
